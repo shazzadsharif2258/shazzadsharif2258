@@ -6,28 +6,52 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      title: "BookSphere",
+      description: "An integrated project design for book management and discovery. Built with modern web technologies, this platform provides a comprehensive solution for book lovers to organize, discover, and manage their reading collections with an intuitive interface.",
+      technologies: ["ReactJS", "NodeJS", "Firebase"],
       image: "/placeholder.svg",
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
+      title: "Object Detection System",
+      description: "An AI-powered object detection system developed for the AI Lab. This project utilizes computer vision algorithms and machine learning to accurately identify and classify objects in real-time, providing detailed analysis and visualization.",
+      technologies: ["Python", "KNN", "CV2", "Streamlit"],
       image: "/placeholder.svg",
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
     },
     {
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with location-based forecasts, interactive maps, and historical weather data visualization.",
-      technologies: ["React", "D3.js", "Weather API"],
+      title: "Children Learning System",
+      description: "An educational system developed for the Microprocessors and Microcontrollers Lab. This interactive platform helps children learn programming concepts through engaging activities and hands-on exercises using Assembly Language.",
+      technologies: ["Assembly Language", "Microprocessors", "Educational Design"],
       image: "/placeholder.svg",
-      demoUrl: "#",
-      githubUrl: "#"
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
+    },
+    {
+      title: "Food Delivery System",
+      description: "A comprehensive food delivery management system built for database course project. Features include restaurant management, order tracking, user authentication, and real-time delivery updates with a responsive web interface.",
+      technologies: ["HTML", "CSS", "PHP", "MySQL"],
+      image: "/placeholder.svg",
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
+    },
+    {
+      title: "Encryption Decryption System",
+      description: "A secure data communication system that implements various encryption and decryption algorithms. This project demonstrates understanding of cybersecurity principles and provides a robust solution for secure data transmission.",
+      technologies: ["Java", "Cryptography", "Data Security"],
+      image: "/placeholder.svg",
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
+    },
+    {
+      title: "Airline Management System",
+      description: "A comprehensive airline management system developed using object-oriented programming principles. The system handles flight scheduling, passenger management, booking operations, and administrative tasks with a user-friendly interface.",
+      technologies: ["Java", "OOP", "Database Design"],
+      image: "/placeholder.svg",
+      demoUrl: "https://sites.google.com/view/shazzadsharif",
+      githubUrl: "https://github.com/shazzadsharif2258"
     }
   ];
 

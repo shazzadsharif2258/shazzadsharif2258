@@ -5,18 +5,18 @@ const AboutSection = () => {
   const features = [
     {
       icon: <Code className="w-8 h-8 text-portfolio-accent" />,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code that stands the test of time."
+      title: "Full-Stack Development",
+      description: "Experienced in both frontend and backend technologies with ReactJS, NodeJS, and modern databases."
     },
     {
       icon: <Palette className="w-8 h-8 text-portfolio-accent" />,
-      title: "Beautiful Design",
-      description: "Creating visually stunning interfaces that provide exceptional user experiences."
+      title: "AI & Machine Learning",
+      description: "Working on AI projects including object detection systems and intelligent applications."
     },
     {
       icon: <Zap className="w-8 h-8 text-portfolio-accent" />,
-      title: "Performance",
-      description: "Optimizing every aspect to deliver lightning-fast, responsive applications."
+      title: "Academic Excellence",
+      description: "CGPA 3.82/4.00 with multiple VC Awards and Dean's Awards at Green University of Bangladesh."
     }
   ];
 
@@ -24,13 +24,13 @@ const AboutSection = () => {
     <section className="py-20 bg-portfolio-surface">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-portfolio-primary mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-portfolio-primary mb-6 animate-fade-in-up">
             About Me
           </h2>
-          <p className="text-xl text-portfolio-text-light max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with a keen eye for design and a love for creating 
-            digital solutions that make a difference. With years of experience in full-stack 
-            development, I bring ideas to life through code.
+          <p className="text-xl text-portfolio-text-light max-w-3xl mx-auto leading-relaxed animate-fade-in-up [animation-delay:0.3s]">
+            I'm a Computer Science & Engineering student at Green University of Bangladesh with a passion for 
+            developing innovative solutions. Currently working as an intern at NextTech Limited, I specialize in 
+            full-stack development and AI technologies.
           </p>
         </div>
 
@@ -41,16 +41,19 @@ const AboutSection = () => {
             </h3>
             <div className="space-y-4 text-portfolio-text-light">
               <p>
-                Started as a curious mind fascinated by technology, I've evolved into a 
-                developer who believes in the power of good design and clean code. 
+                Currently pursuing B.Sc. in Computer Science & Engineering at Green University of Bangladesh 
+                with a CGPA of 3.82/4.00. I've earned multiple VC Awards and Dean's Awards for academic excellence, 
+                and I'm currently gaining practical experience as an intern at NextTech Limited.
               </p>
               <p>
-                I specialize in React, TypeScript, Node.js, and modern web technologies, 
-                always staying current with the latest trends and best practices.
+                My academic background includes H.S.C in Science with a perfect GPA of 5.00/5.00 from 
+                Noakhali Govt. College. I've also completed professional training in Python Programming 
+                for Django and Digital Marketing (SEO Expert).
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing 
-                to open source, or mentoring fellow developers.
+                Beyond academics, I've volunteered with Bangladesh Red Crescent Society and enjoy playing 
+                cricket, public speaking, and leading collaborative projects. I believe in combining 
+                technical expertise with strong communication and leadership skills.
               </p>
             </div>
           </div>

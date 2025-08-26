@@ -10,19 +10,19 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "hello@example.com",
-      href: "mailto:hello@example.com"
+      value: "sharifsh846@gmail.com",
+      href: "mailto:sharifsh846@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "(+880) 1722400194",
+      href: "tel:+8801722400194"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Mirpur, Dhaka, Bangladesh",
       href: "#"
     }
   ];

@@ -37,7 +37,7 @@ const Navigation = () => {
               isScrolled ? "text-portfolio-primary" : "text-white"
             }`}
           >
-            Portfolio
+            Shazzad Sharif
           </a>
 
           {/* Desktop Navigation */}

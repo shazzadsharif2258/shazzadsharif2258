@@ -17,14 +17,14 @@ const HeroSection = () => {
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Creative
-            <span className="block bg-gradient-to-r from-white to-portfolio-accent bg-clip-text text-transparent">
-              Developer
+            <span className="animate-fade-in-up">Md. Shazzad</span>
+            <span className="block bg-gradient-to-r from-white to-portfolio-accent bg-clip-text text-transparent animate-fade-in-up [animation-delay:0.3s]">
+              Hossain Sharif
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
-            I craft digital experiences that blend beautiful design with powerful functionality
+          <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed animate-fade-in-up [animation-delay:0.6s]">
+            Computer Science & Engineering Student | Full-Stack Developer | AI Enthusiast
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -46,22 +46,26 @@ const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a 
-              href="#" 
-              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110"
+              href="https://github.com/shazzadsharif2258" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110 animate-glow"
               aria-label="GitHub"
             >
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="#" 
-              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110"
+              href="https://linkedin.com/in/shazzad-sharif-969b08267" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110 animate-glow [animation-delay:0.5s]"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="#" 
-              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110"
+              href="mailto:sharifsh846@gmail.com" 
+              className="p-3 border border-white/30 rounded-full hover:bg-white/10 portfolio-transition hover:scale-110 animate-glow [animation-delay:1s]"
               aria-label="Email"
             >
               <Mail className="w-6 h-6" />
